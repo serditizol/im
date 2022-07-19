@@ -8,22 +8,36 @@
     <title>Главная</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="include/fontawesome_6/all.min.css">
+    <script src="include/fontawesome_6/all.min.js"></script>
 </head>
 <body>
     <header class="header">
         <div class="block_top_image"></div>
-        <div class="block_top_shapka">
-            <div class="block_top_shapka_h1">Детский магазин</div>
-            <div class="block_top_shapka_mmenu"></div>
-            <div class="block_top_shapka_s"></div>
-            <div class="block_top_shapka_c">
-                <div class="block_top_shapka_icon"></div>
-                <div class="block_top_shapka_t">Профиль</div>
+        
+            <div class="block_top_shapka">
+                <div class="container">
+                    <div class="block_top_shapka_block">
+                        <div class="block_top_shapka_h1">Детский магазин</div>
+                        <div class="block_top_shapka_mmenu"></div>
+                        <div class="block_top_shapka_s">
+                            <input type="text" class="search" placeholder="Поиск">
+                        </div>
+                        <div class="block_top_shapka_c">
+                            <div class="block_top_shapka_icon">
+                                <i class="fa-solid fa-user"></i>
+                            </div>
+                            <div class="block_top_shapka_t">Профиль</div>
+                        </div>
+                        <div class="block_top_shapka_b">
+                            <div class="block_top_shapka_icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </div>
+                            <div class="block_top_shapka_t">Корзина</div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="block_top_shapka_b">
-                <div class="block_top_shapka_icon"></div>
-                <div class="block_top_shapka_t">Корзина</div>
-            </div>
-        </div>
+           
     </header>
 {{ end }}
