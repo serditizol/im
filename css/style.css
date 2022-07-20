@@ -12,11 +12,16 @@
     box-sizing: border-box;
     font-family: "NotoSans";
 }
+a{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
 html, body{
     font-size: 16px;
 }
 .container{
-    max-width: 1280px;
+    max-width: 1400px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -97,4 +102,72 @@ html, body{
 .block_top_shapka_c,
 .block_top_shapka_b{
     margin-left: 20px;
+}
+.top_menu_block {
+    margin-top: 20px;
+}
+.top_menu_b{
+    display: block;
+    width: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.top_menu_b_img{
+    width: 100%;
+    height: 45px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.top_menu_b_img.img1{
+    background-image: url('/images/menu_category/1.png');
+}
+.top_menu_b_img.img2{
+    background-image: url('/images/menu_category/2.png');
+}
+.top_menu_b_img.img3{
+    background-image: url('/images/menu_category/3.png');
+}
+.top_menu_b_img.img4{
+    background-image: url('/images/menu_category/4.png');
+}
+.top_menu_b_img.img5{
+    background-image: url('/images/menu_category/5.png');
+}
+.top_menu_b_img.img6{
+    background-image: url('/images/menu_category/6.png');
+}
+.top_menu_b_img.img7{
+    background-image: url('/images/menu_category/7.png');
+}
+.top_menu_b_img.img8{
+    background-image: url('/images/menu_category/8.png');
+}
+.top_menu_b_img.img9{
+    background-image: url('/images/menu_category/9.png');
+}
+.top_menu_b_t{
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 10px;
+}
+.main_slider_block{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+}
+.main_slider_block .main_slider_b{
+    background-image: url('/images/main_slider/main_slider.jpg');
+    width: 100%;
+    height: 450px;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main_slider_block .slick-dots li button:before{
+    font-size: 15px;
+}
+.main_slider_block .slick-dots{
+    bottom: 10px;
 }
